@@ -84,3 +84,8 @@ You can also run the graphical application locally using the deployed model. All
    ```bash
    watsonx-ai app run
    ```
+
+Try the queries below:
+1. Which supplier out of Excelentia Supplies and Global Office Supplies is viable to buy product Xtralife from. Give a list of pros and cons of each supplier
+
+2. Which supplier should i choose? i want an urgent delivery.
