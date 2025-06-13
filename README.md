@@ -53,10 +53,10 @@ To begin working with this template using the Command Line Interface (CLI), plea
 
 1. Copy `config.toml.example` → `config.toml`.
 2. Fill in IBM Cloud credentials:
-   watsonx_apikey
-   watsonx_url
-   space_id
-   deployment_id
+   1. watsonx_apikey
+   2. watsonx_url
+   3. space_id
+   4. deployment_id
 
 ## Running the application locally
 ### CLI
@@ -69,6 +69,10 @@ watsonx-ai service invoke --deployment_id "<DEPLOYMENT_ID>" "Which supplier out 
 
 ```sh
 watsonx-ai service invoke "Which supplier out of Excelentia Supplies and Global Office Supplies is viable to buy product Xtralife from. Give a list of pros and cons of each supplier"
+```
+
+```sh
+watsonx-ai service invoke "Which supplier should i choose for the rpoduct of Xtralife? i want an urgent delivery."
 ```
 
 ## Running the graphical app locally
