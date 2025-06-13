@@ -62,13 +62,13 @@ To begin working with this template using the Command Line Interface (CLI), plea
 ### CLI
 
 ```sh
-watsonx-ai service invoke --deployment_id "<DEPLOYMENT_ID>" "<PROMPT>"
+watsonx-ai service invoke --deployment_id "<DEPLOYMENT_ID>" "Which supplier out of Excelentia Supplies and Global Office Supplies is viable to buy product Xtralife from. Give a list of pros and cons of each supplier"
 ```
 
 *If `deployment_id` is set in `config.toml`, omit the flag.*
 
 ```sh
-watsonx-ai service invoke "<PROMPT>"
+watsonx-ai service invoke "Which supplier out of Excelentia Supplies and Global Office Supplies is viable to buy product Xtralife from. Give a list of pros and cons of each supplier"
 ```
 
 ## Running the graphical app locally
@@ -77,7 +77,7 @@ You can also run the graphical application locally using the deployed model. All
 
 
    ```bash
-   cd <app_name>
+   cd nextjs-chat-with-ai-service
    cp template.env .env
    ```
    
