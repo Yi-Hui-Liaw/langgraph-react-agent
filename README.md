@@ -16,15 +16,10 @@ To begin working with this template using the Command Line Interface (CLI), plea
    pip install -U ibm-watsonx-ai-cli
    ```
 
-2. **Download template**:
+2. **Change Directory**:
    ```sh
-   watsonx-ai template new "base/langgraph-react-agent"
+   cd langgraph-react-agent
    ```
-
-   Upon executing the above command, a prompt will appear requesting the user to specify the target directory for downloading the template. Once the template has been successfully downloaded, navigate to the designated template folder to proceed.
-
-> [!NOTE]
-> Alternatively, it is possible to set up the template using a different method. For detailed instructions, please refer to the section "[Cloning template (Optional)](#-cloning-template-optional)".
 
 3. **Install Poetry**:
 
@@ -57,17 +52,13 @@ To begin working with this template using the Command Line Interface (CLI), plea
 ## Configuration
 
 1. Copy `config.toml.example` → `config.toml`.
-2. Fill in IBM Cloud credentials.
+2. Fill in IBM Cloud credentials:
+   watsonx_apikey
+   watsonx_url
+   space_id
+   deployment_id
 
 ## Running the application locally
-
-Ensure `config.toml` is configured.
-Fill in the following:
-watsonx_apikey
-watsonx_url
-space_id
-deployment_id
-
 ### CLI
 
 ```sh
