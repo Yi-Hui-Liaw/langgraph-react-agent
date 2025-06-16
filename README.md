@@ -72,7 +72,7 @@ watsonx-ai service invoke "Which supplier out of Excelentia Supplies and Global 
 ```
 
 ```sh
-watsonx-ai service invoke "Which supplier should i choose for the rpoduct of Xtralife? i want an urgent delivery."
+watsonx-ai service invoke "Which supplier should i choose for the product of Xtralife? i want an urgent delivery."
 ```
 
 ## Running the graphical app locally
